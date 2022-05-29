@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className="max-w-7xl min-w-full">
+    <div className="max-w-7xl">
       <Head>
         <title>TackEdu</title>
         <meta name="description" content="Personalized education for everyone." />
@@ -18,10 +18,6 @@ export default function Home() {
       <Header />
 
       <Banner />
-
-      <main>
-
-      </main>
 
       <Footer />
     </div>

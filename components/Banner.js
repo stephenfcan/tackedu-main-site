@@ -15,7 +15,7 @@ function Banner() {
         </div>
 
         <img
-          className="hidden p-20 lg:inline-flex w-[800px] lg:h-full"
+          className="hidden p-20 lg:inline-flex lg:w-[800px] lg:h-full"
           src="https://user-images.githubusercontent.com/84104582/167009991-17258aab-b164-423f-9463-d7eaad443fa8.png"
           alt=""
         />
