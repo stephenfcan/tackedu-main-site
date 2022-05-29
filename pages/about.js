@@ -6,7 +6,7 @@ import Header from '../components/Header'
 
 function About() {
   return (
-    <div>
+    <div className="min-w-fit">
       <Head>
         <title>About - TackEdu</title>
         <link rel="icon" href="/favicon.ico" />
@@ -20,7 +20,7 @@ function About() {
               <p className="px-4 font-medium text-sm lg:text-md max-w-3xl mx-auto">Founded in 2020, TackEdu was built on the idea that higher-level education needed to be disrupted. Unlike the 300 year-old college insitutions of the 20th Century, TackEdu harnesses digital transformation and machine learning to make education more accessible and more personal.</p>
           </div>
 
-          <div className="bg-[#2a2a2a] mt-[100px]">
+          <div className="bg-[#2a2a2a] mt-[100px] pb-[100px] max-w-7xl mx-auto">
             <h1 className="py-7 pt-14 font-serif text-center font-regular text-3xl lg:text-5xl text-white mb-[60px] mt-[20px]">Founding Team</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-10 lg:space-y-0 md:space-x-5 px-10">
                 <AboutTeam img="https://stephenan.net/images/profilepic.png" role="CEO" name="Stephen An" description="Stephen is a senior at the University of Georgia studying Management Information Systems. He has interned for multiple companies including ServiceNow, Boehringer Ingelheim, and Gartner leading digital transformation and edtech efforts. He is also the instructor for TackEdu's JavaScript Course." />

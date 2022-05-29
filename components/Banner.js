@@ -3,7 +3,7 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div className="flex max-w-7xl justify-between items-center bg-opacity-90 bg-[#2a2a2a] border-y border-black py-10 lg:py-0">
+    <div className="flex flex-grow max-w-7xl mx-auto justify-between items-center bg-opacity-90 bg-[#2a2a2a] border-y border-black py-10 lg:py-0">
         <div className="text-white px-10 space-y-7">
           <h1 className="text-6xl max-w-xl font-serif">
             Personalized education for <span className="underline decoration-[#ff8a00] text-[#ff8a00] decoration-4">everyone.</span>
@@ -15,7 +15,7 @@ function Banner() {
         </div>
 
         <img
-          className="hidden p-20 lg:inline-flex lg:w-[800px] lg:h-full"
+          className="hidden lg:p-20 lg:inline-flex lg:max-w-[800px] lg:h-full"
           src="https://user-images.githubusercontent.com/84104582/167009991-17258aab-b164-423f-9463-d7eaad443fa8.png"
           alt=""
         />
