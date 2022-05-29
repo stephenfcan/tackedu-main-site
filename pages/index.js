@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="max-w-7xl min-w-full">
       <Head>
         <title>TackEdu</title>
         <meta name="description" content="Personalized education for everyone." />
