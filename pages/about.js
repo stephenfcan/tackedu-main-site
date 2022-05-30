@@ -39,7 +39,7 @@ function About() {
                   link="https://www.linkedin.com/in/baig-faisal/"
                   img="https://media-exp1.licdn.com/dms/image/C5603AQFTTmCy7y2pNA/profile-displayphoto-shrink_800_800/0/1653831031834?e=1659571200&v=beta&t=wouc9TMkFCCfQMmNS2nrYiX8XAQNOaeUEcXvOsO2krE"
                   role="CTO" name="Faisal Baig"
-                  description="Faisal is a masters student at Georgia Tech studying Artificial Intelligence. He holds an undergrad in computer science from Georgia Tech and has experience working with multiple startups and enterprises. He is also the instructor for TackEdu's Python Mastery course"
+                  description="Faisal is a masters student at Georgia Tech studying Artificial Intelligence. He holds an undergrad in computer science from Georgia Tech and has experience working with multiple startups and enterprises. He is also the instructor for TackEdu's Python Mastery course."
                 />
             </div>
           </div>

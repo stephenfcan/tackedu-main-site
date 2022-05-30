@@ -13,7 +13,7 @@ function Banner() {
             <h2 className="cursor-pointer hover:bg-opacity-80 text-center bg-[#ff8a00] rounded-md py-[8px] font-semibold w-52">Start learning for free →</h2>
           </Link>
         </div>
-
+        
         <img
           className="hidden lg:py-20 lg:pl-20 lg:pr-10 lg:inline-flex lg:max-w-[800px] lg:h-full"
           src="https://user-images.githubusercontent.com/84104582/167009991-17258aab-b164-423f-9463-d7eaad443fa8.png"

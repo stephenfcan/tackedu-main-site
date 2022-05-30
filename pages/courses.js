@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
 import CourseBanner from '../components/CourseBanner'
@@ -7,6 +8,11 @@ import Header from '../components/Header'
 function Courses() {
   return (
     <div className="bg-[#2a2a2a] max-w-7xl mx-auto">
+        <Head>
+          <title>Courses - TackEdu</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+
         <Header />
 
         <div className="hidden lg:flex z-10 mt-12 items-center justify-between px-10 py-5 w-10/12 mx-auto rounded-sm bg-[#3a3a3a] text-white">
