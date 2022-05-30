@@ -26,7 +26,7 @@ function Contact() {
 
             <form className="max-w-3xl mx-auto flex flex-col px-8 py-8">
 
-              <label htmlFor="fullname" className="text-gray-500 font-light mt-8 mb-3 dark:text-gray-50">Full name<span class="text-red-500">*</span></label>
+              <label htmlFor="fullname" className="text-gray-500 font-light mt-8 mb-3 dark:text-gray-50">Full name<span className="text-red-500">*</span></label>
               <input
                 type="text"
                 name="fullname"
@@ -37,7 +37,7 @@ function Contact() {
                 className="bg-black bg-opacity-20 py-2 pl-4 focus:outline-none font-light text-gray-500"
               />
 
-              <label htmlFor="email" className="text-gray-500 font-light mt-4 mb-3 dark:text-gray-50">E-mail<span class="text-red-500">*</span></label>
+              <label htmlFor="email" className="text-gray-500 font-light mt-4 mb-3 dark:text-gray-50">E-mail<span className="text-red-500">*</span></label>
               <input
                 type="email"
                 name="email"
@@ -48,7 +48,7 @@ function Contact() {
                 className="bg-black bg-opacity-20 py-2 pl-4 focus:outline-none font-light text-gray-500"
               />
 
-              <label htmlFor="subject" className="text-gray-500 font-light mt-4 mb-3 dark:text-gray-50">Subject<span class="text-red-500">*</span></label>
+              <label htmlFor="subject" className="text-gray-500 font-light mt-4 mb-3 dark:text-gray-50">Subject<span className="text-red-500">*</span></label>
               <input
                 type="text"
                 name="subject"
@@ -59,7 +59,7 @@ function Contact() {
                 className="bg-black bg-opacity-20 py-2 pl-4 focus:outline-none font-light text-gray-500"
               />
 
-              <label htmlFor="message" className="text-gray-500 font-light mt-4 mb-3 dark:text-gray-50">Message<span class="text-red-500">*</span></label>
+              <label htmlFor="message" className="text-gray-500 font-light mt-4 mb-3 dark:text-gray-50">Message<span className="text-red-500">*</span></label>
               <textarea
                 rows={8}
                 name="message"
