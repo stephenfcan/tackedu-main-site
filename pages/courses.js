@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import CourseBanner from '../components/CourseBanner'
 import Footer from '../components/Footer'
@@ -5,14 +6,14 @@ import Header from '../components/Header'
 
 function Courses() {
   return (
-    <div className="bg-[#2a2a2a]">
+    <div className="bg-[#2a2a2a] max-w-7xl mx-auto">
         <Header />
 
         <div className="hidden lg:flex z-10 mt-12 items-center justify-between px-10 py-5 w-10/12 mx-auto rounded-sm bg-[#3a3a3a] text-white">
           <h1 className="text-lg font-semibold">Learn HTML, CSS, and JavaScript</h1>
           <div className="flex space-x-5 items-center">
             <h2 className="font-light"><span className="font-semibold">Free</span> - no credit card required</h2>
-            <h2 className="cursor-pointer hover:bg-opacity-80 px-10 py-4 bg-[#ff8a00] rounded-xl text-xs font-semibold">GET STARTED</h2>
+            <Link href="https://beta.tackedu.com"><h2 className="cursor-pointer hover:bg-opacity-80 px-10 py-4 bg-[#ff8a00] rounded-xl text-xs font-semibold">GET STARTED</h2></Link>
           </div>
         </div>
 
