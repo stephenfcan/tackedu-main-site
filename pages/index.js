@@ -34,7 +34,7 @@ export default function Home() {
           <CourseIcon
             link="/courses"
             img="https://www.jotform.com/blog/wp-content/uploads/2008/07/photo-1505685296765-3a2736de412f.jpeg"
-            courseName="CSS ESSENTIALS"
+            courseName="CSS PROFICIENCY"
             instImg="https://stephenan.net/images/profilepic.png"
             instName="Stephen An"
             instLink="https://linkedin.com/in/stephen-an"

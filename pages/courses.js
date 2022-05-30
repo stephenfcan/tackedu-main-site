@@ -38,15 +38,27 @@ function Courses() {
               />
               <CourseBanner
                 img="https://www.jotform.com/blog/wp-content/uploads/2008/07/photo-1505685296765-3a2736de412f.jpeg"
-                name="CSS Essentials"
+                name="CSS Proficiency"
                 instructor="Stephen An"
                 releaseDate="January 2023"
               />
               <CourseBanner
                 img="https://upload.wikimedia.org/wikipedia/commons/9/91/JavaScript_screenshot.png"
-                name="JavaScript"
+                name="JavaScript Essentials"
                 instructor="Stephen An"
                 releaseDate="January 2023"
+              />
+              <CourseBanner
+                img="https://upload.wikimedia.org/wikipedia/commons/9/91/JavaScript_screenshot.png"
+                name="Python Mastery"
+                instructor="Faisal Baig"
+                releaseDate="March 2023"
+              />
+              <CourseBanner
+                img="https://upload.wikimedia.org/wikipedia/commons/9/91/JavaScript_screenshot.png"
+                name="React.js Mastery"
+                instructor="Stephen An"
+                releaseDate="March 2023"
               />
             </div>
         </main>
