@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 
-function contact() {
+function Contact() {
   return (
     <div>
         <Header />
@@ -20,4 +20,4 @@ function contact() {
   )
 }
 
-export default contact
+export default Contact

@@ -20,10 +20,9 @@ function Header() {
             </div>
         </div>
 
-        <div className="flex items-center font-semibold space-x-5">
-            <HeaderOptions name="Sign In" link="https://beta.tackedu.com" />
+        <div className="flex items-center font-semibold">
             <Link href="https://beta.tackedu.com">
-                <h3 className="cursor-pointer border-2 px-4 py-1 rounded-full text-white border-[#ff8a00] hover:text-white hover:bg-[#ff8a00]">Get Started</h3>
+                <h3 className="cursor-pointer border-2 px-4 py-1 rounded-md text-white border-[#ff8a00] hover:text-white hover:bg-[#ff8a00]">Log In</h3>
             </Link>
         </div>
     </header>
