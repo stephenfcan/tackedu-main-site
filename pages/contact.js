@@ -18,7 +18,7 @@ function Contact() {
 
         <Header />
 
-        <main className="mt-[100px]">
+        <main className="mt-[50px] md:mt-[100px]">
             <div className="text-center space-y-5 text-white">
                 <h1 className="font-serif leading-tight font-medium text-4xl md:text-5xl max-w-5xl mx-auto">Contact Us</h1>
                 <p className="px-4 font-medium text-sm lg:text-md text-center mx-auto max-w-2xl">Whatever your comments, questions, or feedback are, we want to hear from you. Just fill out the form below and we&apos;ll respond as soon as possible.</p>

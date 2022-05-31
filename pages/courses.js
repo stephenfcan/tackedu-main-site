@@ -24,18 +24,18 @@ function Courses() {
         </div>
 
         <div className="pt-8">
-          <h1 className="text-4xl md:text-5xl font-serif font-base pl-10 md:pl-[110px] pr-10 py-7 text-white">Browse Classes</h1>
+          <h1 className="text-4xl md:pl-[50px] md:text-5xl font-serif font-base pl-10 lg:pl-[110px] pr-10 py-7 text-white">Browse Classes</h1>
         </div>
 
-        <main className="flex flex-col md:flex-row pt-5">
-            <div className="pl-10 md:pl-[110px] text-white font-semibold space-y-3">
+        <main className="flex flex-col md:flex-row md:pt-5">
+            <div className="pl-10 md:pl-[50px] lg:pl-[110px] text-white font-semibold space-y-3">
               <h3 className="cursor-pointer opacity-60 hover:opacity-100">All Classes</h3>
               <h3 className="cursor-pointer opacity-60 hover:opacity-100">Trending</h3>
               <h3 className="cursor-pointer opacity-60 hover:opacity-100">Just Added</h3>
               <h3 className="cursor-pointer opacity-60 hover:opacity-100">Coming Soon</h3>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 pl-10 md:ml-[80px] md:pl-14 pt-10 md:pt-0">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 pl-10 lg:ml-[80px] lg:pl-14 pt-10 md:pt-0">
               <CourseBanner
                 img="https://i.stack.imgur.com/A135U.png"
                 name="HTML Mastery"

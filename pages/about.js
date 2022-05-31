@@ -14,13 +14,13 @@ function About() {
 
       <Header />
 
-      <main className="mt-[100px]">
+      <main className="mt-[50px] lg:mt-[100px]">
           <div className="space-y-9 text-center">
-              <h1 className="font-serif leading-tight font-medium text-3xl lg:text-7xl max-w-5xl mx-auto">Unlocking human potential by personalizing education.</h1>
-              <p className="px-4 font-medium text-sm lg:text-md max-w-3xl mx-auto">Founded in 2020, TackEdu was built on the idea that higher-level education needed to be disrupted. Unlike the 300 year-old college insitutions of the 20th Century, TackEdu harnesses digital transformation and machine learning to make education more accessible and more personal.</p>
+              <h1 className="font-serif px-3 leading-tight font-medium text-3xl lg:text-7xl max-w-5xl mx-auto">Unlocking human potential by personalizing education.</h1>
+              <p className="px-7 font-medium text-sm lg:text-md max-w-3xl mx-auto">Founded in 2020, TackEdu was built on the idea that higher-level education needed to be disrupted. Unlike the 300 year-old college insitutions of the 20th Century, TackEdu harnesses digital transformation and machine learning to make education more accessible and more personal.</p>
           </div>
 
-          <div className="bg-[#2a2a2a] mt-[100px] pb-[100px] max-w-7xl mx-auto">
+          <div className="bg-[#2a2a2a] mt-[50px] lg:mt-[100px] pb-[100px] max-w-7xl mx-auto">
             <h1 className="py-7 pt-14 font-serif text-center font-regular text-3xl lg:text-5xl text-white mb-[60px] mt-[20px]">Founding Team</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-10 lg:space-y-0 md:space-x-5 px-10">
                 <AboutTeam

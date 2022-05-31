@@ -9,7 +9,7 @@ import CourseIcon from '../components/CourseIcon'
 
 export default function Home() {
   return (
-    <div className="max-w-7xl min-w-fit">
+    <div className="max-w-7xl mx-auto min-w-fit">
       <Head>
         <title>TackEdu</title>
         <meta name="description" content="Personalized education for everyone." />
