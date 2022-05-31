@@ -21,7 +21,7 @@ function About() {
           </div>
 
           <div className="bg-[#2a2a2a] mt-[50px] lg:mt-[100px] pb-[100px] max-w-7xl mx-auto">
-            <h1 className="py-7 pt-14 font-serif text-center font-regular text-3xl lg:text-5xl text-white mb-[60px] mt-[20px]">Founding Team</h1>
+            <h1 className="py-7 pt-14 font-serif text-center font-regular text-3xl lg:text-5xl text-white mb-[30px] lg:mb-[60px] mt-[20px]">Founding Team</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-10 lg:space-y-0 md:space-x-5 px-10">
                 <AboutTeam
                   link="https://linkedin.com/in/stephen-an"
@@ -46,7 +46,7 @@ function About() {
       </main>
 
       <Footer />
-      
+
     </div>
   )
 }

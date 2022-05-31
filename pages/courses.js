@@ -23,7 +23,7 @@ function Courses() {
           </div>
         </div>
 
-        <div className="pt-8">
+        <div className="pt-3 md:pt-8">
           <h1 className="text-4xl md:pl-[50px] md:text-5xl font-serif font-base pl-10 lg:pl-[110px] pr-10 py-7 text-white">Browse Classes</h1>
         </div>
 
@@ -70,7 +70,7 @@ function Courses() {
         </main>
 
         <Footer />
-        
+
     </div>
   )
 }
