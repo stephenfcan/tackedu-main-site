@@ -83,6 +83,7 @@ function Contact() {
         </main>
 
         <Footer />
+        
     </div>
   )
 }

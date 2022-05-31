@@ -4,6 +4,7 @@ import React from 'react'
 function Banner() {
   return (
     <div className="flex flex-grow max-w-7xl mx-auto justify-between items-center bg-[#2a2a2a] pt-8 pb-10 lg:py-0">
+        
         <div className="text-white px-10 space-y-7">
           <h1 className="text-6xl max-w-xl font-serif">
             Personalized education for <span className="underline decoration-[#ff8a00] text-[#ff8a00] decoration-4">everyone.</span>
@@ -19,6 +20,7 @@ function Banner() {
           src="https://user-images.githubusercontent.com/84104582/171101509-54e1b4ef-8a9f-470d-b938-85f868103581.png"
           alt=""
         />
+
       </div>
   )
 }

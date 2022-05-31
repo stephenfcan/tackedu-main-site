@@ -70,6 +70,7 @@ function Courses() {
         </main>
 
         <Footer />
+        
     </div>
   )
 }
