@@ -17,7 +17,7 @@ function About() {
       <main className="mt-[50px] lg:mt-[100px]">
           <div className="space-y-9 text-center">
               <h1 className="font-serif px-3 leading-tight font-medium text-3xl lg:text-7xl max-w-5xl mx-auto">Unlocking human potential by personalizing education.</h1>
-              <p className="px-7 font-medium text-sm lg:text-md max-w-3xl mx-auto">Founded in 2020, TackEdu was built on the idea that higher-level education needed to be disrupted. Unlike the 300 year-old college insitutions of the 20th Century, TackEdu harnesses digital transformation and machine learning to make education more accessible and more personal.</p>
+              <p className="px-7 font-medium text-sm lg:text-md max-w-3xl mx-auto">At TackEdu, we believe education is the key to unlocking human potential. Unfortunately, over the last 35 years, we’ve seen marquee colleges and universities transform from public servants to luxury goods. Founded in 2020, TackEdu was built on the idea of transforming education to make it more accessible and more personal.</p>
           </div>
 
           <div className="bg-[#2a2a2a] mt-[50px] lg:mt-[100px] pb-[100px] max-w-7xl mx-auto">

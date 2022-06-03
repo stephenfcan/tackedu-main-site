@@ -17,7 +17,7 @@ function Banner() {
         
         <img
           className="hidden mt-5 lg:py-20 lg:pl-20 lg:pr-10 lg:inline-flex lg:max-w-[800px] lg:h-full"
-          src="https://user-images.githubusercontent.com/84104582/171101509-54e1b4ef-8a9f-470d-b938-85f868103581.png"
+          src="https://user-images.githubusercontent.com/84104582/171801936-fa9e5bb9-1aaa-4576-9014-213ccd22b15b.png"
           alt=""
         />
 
