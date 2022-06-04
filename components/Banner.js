@@ -3,7 +3,7 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div className="flex flex-grow max-w-7xl mx-auto justify-between items-center bg-[#2a2a2a] pt-8 pb-10 lg:py-0">
+    <div className="flex flex-grow max-w-7xl mx-auto justify-between items-center bg-[#2a2a2a] pt-8 pb-10 lg:-mt-14 lg:py-0">
         
         <div className="text-white px-10 space-y-7">
           <h1 className="text-6xl max-w-xl font-serif">
