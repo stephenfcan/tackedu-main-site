@@ -13,6 +13,7 @@ export default function Home() {
       <Head>
         <title>TackEdu</title>
         <meta name="description" content="Personalized education for everyone." />
+        <meta property="og:image" content="https://user-images.githubusercontent.com/84104582/171989684-626c1272-3683-4131-8ae4-559d0a56c773.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
